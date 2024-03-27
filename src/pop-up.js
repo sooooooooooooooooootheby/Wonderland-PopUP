@@ -16,7 +16,7 @@ function startProgress(ms) {
     }, ms / 105);
 }
 
-popup = (text, ms) => {
+popup = (text, ms, color) => {
     // 判断popup元素是否存在
     let popupElements = document.getElementsByClassName('popup');
     if (popupElements.length === 0 && (text || text === '')) {
@@ -37,6 +37,12 @@ popup = (text, ms) => {
         // 判断是否有时间参数，如果没有设置为3000ms
         if (!ms || ms === '') {
             ms = 3000;
+        }
+
+        // 判断是否有颜色参数
+        if (color) {
+            let popupBackground = document.querySelector('.popup');
+            popupBackground.style.backgroundColor = color;
         }
 
         setTimeout(() => {
