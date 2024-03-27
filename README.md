@@ -28,4 +28,4 @@ https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP@v1.0.0/pop
 
 # v1.0.0 预览
 
-![v1.0.0 预览](https://raw.githubusercontent.com/sooooooooooooooooootheby/Wonderland-PopUP/main/PixPin_2024-03-19_12-56-18.gif)
+![v1.0.0 预览](https://raw.githubusercontent.com/sooooooooooooooooootheby/Wonderland-PopUP/main/PixPin_2024-03-27_14-23-34.gif)
