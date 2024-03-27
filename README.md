@@ -10,10 +10,12 @@
 
 ```
 # js
-https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP@v1.0.0/pop-up.js
+在<body>标签内使用
+https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP/src/pop-up.js
 
+在<head>标签内使用
 # css
-https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP@v1.0.0/pop-up.css
+https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP/src/pop-up.css
 ```
 
 ## 使用
