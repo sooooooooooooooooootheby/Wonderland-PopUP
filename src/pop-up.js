@@ -16,7 +16,7 @@ function startProgress(ms) {
     }, ms / 105);
 }
 
-popup = (text, ms, color) => {
+popup = ({text, ms, color}) => {
     // 判断popup元素是否存在
     let popupElements = document.getElementsByClassName('popup');
     if (popupElements.length === 0 && (text || text === '')) {
