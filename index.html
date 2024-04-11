@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
-    <title>ciallo world</title>
-    <!-- <link rel="stylesheet"
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>ciallo world</title>
+        <!-- <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP/pop-up.css"> -->
-        <link rel="stylesheet" href="./src/pop-up.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+        <link rel="stylesheet" href="./src/pop-up.css" />
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
 
-        body {
-            height: 100vh;
-            display: flex;
+            body {
+                height: 100vh;
+                /* display: flex;
             justify-content: center;
-            align-items: center;
-        }
+            align-items: center; */
+            }
 
-        button {
-            padding: 10px 20px;
-            border-radius: 12px;
-            border: none;
-            background-color: #849476;
-            color: #FFFFFF;
-        }
-    </style>
-</head>
+            button {
+                margin: 20px;
+                padding: 10px 20px;
+                border-radius: 12px;
+                border: none;
+                background-color: #849476;
+                color: #ffffff;
+            }
+        </style>
+    </head>
 
-<body>
-    <button onclick="popup({ text: 'ciallo', color: '#3C3C43C7' })">按钮★1</button>
-    <!-- <script src="https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP/pop-up.js"></script> -->
-    <script src="./src/pop-up.js"></script>
-</body>
-
+    <body>
+        <button onclick="popup({ text: 'ciallo', color: '#3C3C43C7' })">按钮1</button>
+        <button onclick="win({text: '在 HTML 中，你可以使用自定义标签来定义自己的标签，然后通过 JavaScript 来操作这些标签。使用自定义标签可以使 HTML 结构更清晰，更语义化。'})">按钮2</button>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                win({
+                    text: "在 HTML 中，你可以使用自定义标签来定义自己的标签，然后通过 JavaScript 来操作这些标签。使用自定义标签可以使 HTML 结构更清晰，更语义化。",
+                });
+            });
+        </script>
+        <!-- <script src="https://cdn.jsdelivr.net/gh/sooooooooooooooooootheby/Wonderland-PopUP/pop-up.js"></script> -->
+        <script src="./src/pop-up.js"></script>
+    </body>
 </html>
